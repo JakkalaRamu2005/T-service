@@ -40,7 +40,7 @@ export const HeroSection = ({ onGetStarted }: HeroSectionProps) => {
               </Button>
               <Button 
                 variant="outline"
-                className="border-2 border-white text-white hover:bg-white hover:text-purple-700 px-8 py-4 text-lg font-semibold rounded-full transition-all duration-300"
+                className="border-2 border-white  px-8 py-4 text-lg font-semibold rounded-full transition-all duration-300 text-purple-700 bg-white"
               >
                 {t('hero.learnMore')}
               </Button>
